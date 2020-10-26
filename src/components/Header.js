@@ -6,8 +6,8 @@ const Header = () => {
        <header className="navbar">
           <h1>Flair <kbd className="kbd">Test</kbd></h1>
        </header>
-    )
-}
+    );
+};
 
 
 export default Header;

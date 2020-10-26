@@ -4,6 +4,9 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const commonConfig = require('./webpack.config.common');
 
+//webpack by default minifies files but even webpack recommends and encourages terser plugin
+//the other two handles css well. minicssextract is both a plugin and a loader
+
 module.exports = merge(commonConfig, {
     mode: 'production',
     devtool: 'source-map',

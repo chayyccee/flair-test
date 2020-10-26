@@ -10,8 +10,8 @@ const SearchBox = () => {
         <div className="search">
     <Search placeholder="Search Follower" enterButton />
         </div>
-    )
-}
+    );
+};
 
 
 export default SearchBox;

@@ -3,8 +3,8 @@ import { Input } from 'antd';
 import 'antd/dist/antd.css';
 import '../index.css';
 
-
 const { Search } = Input;
+
 const SearchBox = () => {
     return (
         <div className="search">

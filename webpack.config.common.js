@@ -41,8 +41,9 @@ module.exports = {
                               lessOptions: {
                                 modifyVars: {
                                     //setting the values for ant design since ant desing uses less
-                                  'primary-color': '#FF66CC',
-                                    'font-size-base': '3vh',
+                                  hack:`true; @import "${path.resolve(
+                                      __dirname, "./", "theme.less"
+                                  )}";`
                                 },
                                 javascriptEnabled: true,
                            },

@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer">
             <p className="paragraph">Hello, 
                 <br/>
-                this page shows the list github followers of <a href="https://github.com/mosh-hamedani" target="_blank">Mosh Hamedani</a>, called from a <a href="https://api.github.com/users/mosh-hamedani/followers" target="_blank">github api</a>.  
+                this page shows the list github followers of <a className="a" href="https://github.com/mosh-hamedani" target="_blank">Mosh Hamedani</a>, called from a <a className="a" href="https://api.github.com/users/mosh-hamedani/followers" target="_blank">github api</a>.  
              </p>
         </div>
     );

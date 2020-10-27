@@ -62,7 +62,7 @@ return rows.filter(row => row.Name.toLowerCase().indexOf(q));
     return(
         <div>
             <div>
-                <input onInput={search(data)} type="text" placeholder="search..." value={q} onChange={(e) => setQ(e.target.value)} />
+            <input className="input" search={search(data)} type="text" placeholder="search..." value={q} onChange={(e) => setQ(e.target.value)} />
             </div>
 
             <div>
